@@ -23,11 +23,14 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <nav style={{
           width: "100%",
+          height:"50px",
           background: "Gray",
           fontSize: "30px",
           display: "flex",
           justifyContent: "center",
-          alignItems: "center"
+          alignItems: "center",
+          padding: "16px",
+          
         }}>
         <Link style={{margin: "10px"}} href="/">Home</Link>
         <Link style={{margin: "10px"}} href="/posts">Posts</Link>
