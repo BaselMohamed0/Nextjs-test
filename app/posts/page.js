@@ -18,7 +18,7 @@ export default async function postsPage (){
 
     const postsJSX = posts.map ( (post) => {
         return(
-            <Link href={`/posts/${post.id}`} style={{width: "70%",}}>
+            <Link href={`/posts/${post.id}`} style={{width: "70%"}}>
 
             <div style={{
                 width: "100%",
@@ -33,7 +33,7 @@ export default async function postsPage (){
                 <p>{post.body}</p>
 
             </div>
-            
+
             </Link>
         )
     });

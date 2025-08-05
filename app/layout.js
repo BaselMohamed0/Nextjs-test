@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <nav style={{
           width: "100%",
-          background: "teal",
-          fontSize: "50px",
+          background: "Gray",
+          fontSize: "30px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center"
